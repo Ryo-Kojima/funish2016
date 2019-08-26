@@ -1,0 +1,1867 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  font-size: 48px;
+  padding-top: 50px;
+}
+span {
+  color: red;
+  font-size: 16px;
+}
+.layout {
+  margin-top: 100px;
+}
+.error {
+  font-size: 14px;
+  color: red;
+}
+#AboutUs {
+  position: relative;
+  top: 0px;
+}
+#Aboutus_pc {
+  background-image: url(../images/Aboutus.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+#Aboutus_wapper_pc {
+  width: 1100px;
+  margin: 0 auto;
+}
+.Aboutus_content p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.3;
+  padding-top: 30px;
+}
+#Activity {
+  position: relative;
+  top: 0px;
+}
+#Activity_pc {
+  background-color: #fff;
+  width: 100%;
+  height: 1200px;
+}
+#Activity_wapper_pc {
+  width: 1100px;
+  margin: 0 auto;
+}
+#Activity_wapper_pc img {
+  margin: 0 auto;
+  display: block;
+}
+#Staff {
+  position: relative;
+  top: 0px;
+}
+#Staff_pc {
+  background-color: #fff;
+  width: 100%;
+  height: 2200px;
+}
+#Staff_wapper_pc {
+  margin: 0 auto;
+  width: 1100px;
+}
+#staff_wapper_pc1 {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+#staff_wapper_pc2 {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+#staff_wapper_pc2 a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s linear;
+  -webkit-transition: color 0.2s linear;
+}
+#staff_wapper_pc2 a:hover {
+  color: #e27819;
+}
+#staff_wapper_pc3 {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+#staff_wapper_pc4 {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+#staff_wapper_pc5 {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+#staff_wapper_pc6 {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}
+.staff_view_pc1 {
+  padding-top: 20px;
+  margin: 0 auto;
+  display: table;
+}
+.staff_view_pc1 img {
+  border-radius: 50%;
+}
+.staff_view_pc2 {
+  padding-top: 30px;
+  padding-left: 126px;
+  margin: 0 auto;
+  display: table-cell;
+}
+.staff_view_pc2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.staff_view_pc3 {
+  padding-left: 126px;
+  margin: 0 auto;
+  display: table-cell;
+  color: #000;
+  text-decoration: none;
+}
+.staff_view_pc3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.staff_view_pc4 {
+  padding-left: 126px;
+  margin: 0 auto;
+  display: table-cell;
+}
+.staff_view_pc4 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.staff_view_pc5 {
+  padding-left: 126px;
+  margin: 0 auto;
+  display: table-cell;
+}
+.staff_view_pc5 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.staff_view_pc6 {
+  padding-left: 126px;
+  margin: 0 auto;
+  display: table-cell;
+}
+.staff_view_pc6 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.staff_view_pc7 {
+  padding-left: 126px;
+  margin: 0 auto;
+  display: table-cell;
+}
+.staff_view_pc7 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#Gallery {
+  position: relative;
+  top: 0px;
+}
+#Gallery_pc {
+  background-color: #fff;
+  width: 100%;
+  height: 550px;
+}
+.loopsliderwrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  background-color: #e27819;
+}
+.loopslider {
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  text-align: left;
+  position: relative;
+  top: 30px;
+  overflow: hidden;
+}
+.loopslider ul {
+  width: 380px;
+  height: 300px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+  position: relative;
+  top: 40px;
+}
+.loopslider ul li {
+  width: 380px;
+  height: 300px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
+#Record {
+  position: relative;
+  top: 0px;
+}
+#Record_pc {
+  background-color: #fff;
+  width: 100%;
+  height: 1100px;
+}
+#Record_wapper_pc {
+  width: 1170px;
+  margin: 0 auto;
+}
+.record_view {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 85px;
+  margin: 0 auto;
+  display: table-cell;
+}
+.record_view img {
+  width: 280px;
+  height: 180px;
+}
+.record_view h3 {
+  font-size: 10.5px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+.record_view p {
+  font-size: 10px;
+  line-height: 1.8;
+}
+.slick-prev {
+  display: block;
+  background-image: url(../images/btnPrev.png);
+  background-repeat: no-repeat;
+}
+.slick-next {
+  display: block;
+  background-image: url(../images/btnNext.png);
+  background-repeat: no-repeat;
+}
+#Contact {
+  position: relative;
+  top: 0px;
+}
+#Contact_pc {
+  width: 100%;
+  height: 800px;
+  background-image: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Contact_wapper_pc {
+  width: 1100px;
+  margin: 0 auto;
+}
+.form_pc {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+}
+table {
+  border: 1px solid #000;
+  border-spacing: inherit;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+  top: 15px;
+}
+th {
+  width: 250px;
+}
+th, td {
+  border-spacing: inherit;
+  border: 1px solid #000;
+  text-align: left;
+}
+.form_pc .input {
+  width: 800px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#age {
+  font-size: 13px;
+}
+.form_pc textarea {
+  width: 800px;
+  height: 300px;
+  font-size: 16px;
+  border-color: gray;
+  border-radius: 5px;
+}
+#submit_pc {
+  background-color: aqua;
+  font-size: 18px;
+  color: #fff;
+  border: hidden;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+  position: relative;
+  top: 25px;
+}
+.gototop {
+  text-align: right;
+  position: fixed;
+  left: 95%;
+  bottom: 70px;
+  z-index: 1000;
+  background-color: #e27819;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s linear, opacity 0.3s linear;
+  -webkit-transition: background-color 0.3s linear, opacity 0.3s linear;
+}
+.gototop a {
+  width: 30px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+  transition: color 0.3s linear, opacity 0.3s linear;
+  -webkit-transition: color 0.3s linear, opacity 0.3s linear;
+}
+.gototop a p {
+  width: 30px;
+  margin-left: 13px;
+}
+/*.gototop:hover {
+  background-color: #fff;
+  opacity: 0.5;
+}
+.gototop a:hover {
+  color: #e27819;
+  opacity: 0.5;
+}*/
+.new {
+  text-align: right;
+  position: fixed;
+  left: 75%;
+  bottom: 70px;
+  z-index: 1000;
+  background-color: #e27819;
+  border-radius: 30px;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s linear, opacity 0.3s linear;
+  -webkit-transition: background-color 0.3s linear, opacity 0.3s linear;
+}
+.new a {
+  width: 100px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+  transition: color 0.3s linear, opacity 0.3s linear;
+  -webkit-transition: color 0.3s linear, opacity 0.3s linear;
+}
+.new a p {
+  width: 95px;
+  margin-left: 20px;
+  font-size: 12px;
+  line-height: 3.5;
+}
+/*.new:hover {
+  background-color: #fff;
+  opacity: 0.5;
+}
+.new a:hover {
+  color: #e27819;
+  opacity: 0.5;
+}*/
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix::after {
+  /*zoom: 1;*/
+}
+@media (max-width: 1024px) {
+  body {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .layout {
+    margin-top: 80px;
+  }
+  #AboutUs {
+    position: relative;
+    top: 0px;
+  }
+  #Aboutus_pc {
+    background-image: url(../images/Aboutus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+  }
+  #Aboutus_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Aboutus_content p {
+    font-size: 16px;
+    line-height: 2.1;
+  }
+  #Activity {
+    position: relative;
+    top: 0px;
+  }
+  #Activity_pc {
+    background-color: #fff;
+    width: 100%;
+    height: 1200px;
+  }
+  #Activity_wapper_pc {
+    width: 960px;
+    margin: 0 auto;
+  }
+  #Activity_wapper_pc img {
+    margin: 0 auto;
+    display: block;
+  }
+  #Staff {
+    position: relative;
+    top: 0px;
+  }
+  #Staff_pc {
+    background-color: #fff;
+    width: 100%;
+    height: 2200px;
+  }
+  #Staff_wapper_pc {
+    width: 620px;
+    margin: 0 auto;
+  }
+  #staff_wapper_pc1 {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #staff_wapper_pc2 {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc3 {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc4 {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc5 {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc6 {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .staff_view_pc1 {
+    padding-top: 20px;
+    margin: 0 auto;
+    display: table;
+  }
+  .staff_view_pc1 img {
+    border-radius: 50%;
+  }
+  .staff_view_pc2 {
+    padding-left: 92px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc3 {
+    padding-left: 92px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc4 {
+    padding-left: 92px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc4 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc5 {
+    padding-left: 92px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc5 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc6 {
+    padding-left: 92px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc6 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc7 {
+    padding-left: 92px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc7 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  #Gallery_pc {
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+  }
+  #Record_pc {
+    background-color: #fff;
+    width: 100%;
+    height: 1100px;
+  }
+  #Record_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .record_view {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 45px;
+    display: table-cell;
+  }
+  .slideshow {
+    position: relative;
+    top: 0px;
+  }
+  .slider h3 {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .slider p {
+    font-size: 10px;
+    line-height: 1.8;
+  }
+  .slider {
+    position: relative;
+    left: 30px;
+  }
+  #Contact_pc {
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #Contact_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .form_pc {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+  }
+  table {
+    height: 200px;
+  }
+  .form_pc .input {
+    width: 800px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .form_pc textarea {
+    width: 800px;
+    height: 150px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+  }
+  #submit_pc {
+    background-color: aqua;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+  .new {
+    position: fixed;
+    left: 70%;
+  }
+}
+@media (max-width: 960px) {
+  .Staff_introduction h3,
+  .Staff_introduction p {
+    color: #fff;
+    font-style: oblique;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 14px;
+  }
+  #Activity_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #Staff_wapper_pc {
+    width: 620px;
+    margin: 0 auto;
+  }
+  #staff_wapper_pc1 {
+    width: 790px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #staff_wapper_pc2 {
+    width: 790px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc3 {
+    width: 790px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc4 {
+    width: 790px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc5 {
+    width: 790px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  #staff_wapper_pc6 {
+    width: 790px;
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align: center;
+  }
+  .staff_view_pc1 {
+    padding-top: 20px;
+    margin: 0 auto;
+    display: table;
+  }
+  .staff_view_pc1 img {
+    border-radius: 50%;
+  }
+  .staff_view_pc2 {
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc3 {
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc4 {
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc4 img {
+    border-radius: 50%;
+  }
+  .staff_view_pc5 {
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc5 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc6 {
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc6 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .staff_view_pc7 {
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .staff_view_pc7 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .record_view {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: table-cell;
+  }
+  #Contact_pc {
+    width: 100%;
+    height: 580px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .form_pc {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+  }
+  table {
+    width: 900px;
+    height: 250px;
+    position: relative;
+    top: -15px;
+  }
+  .form_pc .input {
+    width: 700px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .form_pc textarea {
+    width: 700px;
+    height: 100px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+  }
+  #submit_pc {
+    position: relative;
+    top: -3px;
+  }
+}
+@media (max-width: 800px) {
+  #Aboutus_wapper_pc {
+    width: 650px;
+    margin: 0 auto;
+  }
+  #Activity_pc {
+    background-color: #fff;
+    width: 100%;
+    height: 1000px;
+  }
+  #Activity_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #Activity_wapper_pc img {
+    width: 800px;
+  }
+  #Gallery_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #Record_wapper_pc {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #record {
+    position: relative;
+    padding: 0px;
+  }
+  #record2 {
+    position: relative;
+    padding: 2px;
+  }
+  .record_view {
+    position: relative;
+    padding-top: 30px;
+    padding-left: 33px;
+    margin: 0 auto;
+    display: table-cell;
+  }
+  .record_view img {
+    width: 220px;
+    height: 120px;
+  }
+  .record_view h3 {
+    font-size: 10px;
+    line-height: 1.8;
+  }
+  .record_view p {
+    width: 226px;
+    font-size: 10px;
+    line-height: 1.8;
+  }
+  table {
+    width: 700px;
+    height: 250px;
+  }
+  .form_pc .input {
+    width: 600px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  .form_pc textarea {
+    width: 600px;
+    height: 200px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+  }
+}
+@media (min-width: 769px) {
+  #Aboutus_sp {
+    display: none;
+  }
+  #Activity_sp {
+    display: none;
+  }
+  #Staff_sp {
+    display: none;
+  }
+  #Gallery_sp {
+    display: none;
+  }
+  #Record_sp {
+    display: none;
+  }
+  #Contact_sp {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #Aboutus_pc {
+    display: none;
+  }
+  #Activity_pc {
+    display: none;
+  }
+  #Staff_pc {
+    display: none;
+  }
+  #Gallery_pc {
+    display: none;
+  }
+  #Record_pc {
+    display: none;
+  }
+  #Contact_pc {
+    display: none;
+  }
+  body {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .layout {
+    margin-top: 65px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  #AboutUs {
+    position: relative;
+  }
+  #Aboutus_sp {
+    background-image: url(../images/Aboutus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+  }
+  #Aboutus_wapper_sp {
+    width: 730px;
+    margin: 0 auto;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 2.5;
+    padding-top: 50px;
+  }
+  #Activity_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 1400px;
+  }
+  #Activity_wapper_sp {
+    width: 730px;
+    margin: 0 auto;
+  }
+  #Activity_wapper_sp img {
+    display: block;
+    margin: 0 auto;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Staff_wapper_sp {
+    width: 620px;
+    margin: 0 auto;
+  }
+  .staff_view_sp a {
+    text-decoration: none;
+    color: #000;
+  }
+  .staff_view_sp {
+    padding-top: 30px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+  }
+  .staff_view_sp img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  #Gallery_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 550px;
+  }
+  #Gallery_wapper_sp {
+    width: 730px;
+    margin: 0 auto;
+  }
+  .delayLoad {
+	  margin: 0 auto;
+	  width: 650px;
+	  text-align: center;
+  }
+  .delayLoad > ul {
+	  width: 100%;
+    list-style-type: none;
+  }
+  .delayLoad  > ul > li {
+	  margin: 5px;
+	  width: 150px;
+    height: 100px;
+	  float: left;
+	  visibility: hidden;
+  }
+  .delayLoad  > ul > li > img {
+    margin: 5px;
+    width: 150px;
+    height: 100px;
+    float: left;
+  }
+  #Record_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+  }
+  #Record_wapper_sp {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .slider h3 {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  .slider p {
+    font-size: 13px;
+    line-height: 1.8;
+  }
+  #Contact_sp {
+    width: 100%;
+    height: 850px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #Contact_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  table {
+    position: relative;
+    top: 30px;
+  }
+  th {
+    font-size: 13px;
+  }
+  .form_sp .input {
+    width: 600px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .form_sp textarea {
+    width: 600px;
+    height: 250px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  #submit_sp {
+    background-color: aqua;
+    border-radius: 5px;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    position: relative;
+    top: 55px;
+    display: block;
+    margin: 0 auto;
+  }
+  .new {
+    position: fixed;
+    left: 60%;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+}
+@media (max-width: 736px) {
+  h2 {
+    font-size: 35px;
+  }
+  #Aboutus_sp {
+    background-image: url(../images/Aboutus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Record_wapper_sp {
+    width: 660px;
+    margin: 0 auto;
+  }
+  .slider {
+    position: relative;
+    left: 15px;
+  }
+  #Contact_sp {
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .form_sp textarea {
+    width: 600px;
+    height: 150px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  .new {
+    position: fixed;
+    left: 60%;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+}
+@media (max-width: 667px) {
+  h2 {
+    font-size: 35px;
+  }
+  #Aboutus_sp {
+    background-image: url(../images/Aboutus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+  }
+  #Aboutus_wapper_sp {
+    width: 540px;
+    margin: 0 auto;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+    padding-top: 30px;
+  }
+  #Activity_wapper_sp {
+    width: 540px;
+    margin: 0 auto;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Staff_wapper_sp {
+    width: 605px;
+    margin: 0 auto;
+  }
+  #Gallery_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+  }
+  #Gallery_wapper_sp {
+    width: 540px;
+    margin: 0 auto;
+  }
+  .delayLoad {
+    margin: 0 auto;
+    width: 495px;
+    text-align: center;
+  }
+  #Record_wapper_sp {
+    width: 330px;
+    margin: 0 auto;
+  }
+  #Contact_sp {
+    width: 100%;
+    height: 640px;
+    background-image: url(../images/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  table {
+    width: 600px;
+  }
+  .form_sp .input {
+    width: 500px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .form_sp textarea {
+    width: 500px;
+    height: 120px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  #submit_sp {
+    background-color: aqua;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    position: relative;
+  }
+  .new {
+    position: fixed;
+    left: 60%;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+}
+@media (max-width: 640px) {
+  h2 {
+    font-size: 35px;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Staff_wapper_sp {
+    width: 370px;
+    margin: 0 auto;
+  }
+  #Gallery_wapper_sp {
+    width: 540px;
+    margin: 0 auto;
+  }
+  #Record_wapper_sp {
+    width: 330px;
+    margin: 0 auto;
+  }
+  table {
+    width: 500px;
+  }
+  .form_sp .input {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .form_sp textarea {
+    width: 400px;
+    height: 120px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  #submit_sp {
+    background-color: aqua;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    position: relative;
+  }
+  .new {
+    position: fixed;
+    left: 60%;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+}
+@media (max-width: 568px) {
+  h2 {
+    font-size: 35px;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+  }
+  #Activity_wapper_sp {
+    width: 470px;
+    margin: 0 auto;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Staff_wapper_sp {
+    width: 370px;
+    margin: 0 auto;
+  }
+  #Gallery_wapper_sp {
+    width: 480px;
+    margin: 0 auto;
+  }
+  #Record_wapper_sp {
+    width: 330px;
+    margin: 0 auto;
+  }
+  .new {
+    position: fixed;
+    left: 60%;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+}
+@media (min-width: 415px) {
+  .nm {
+    display: none;
+  }
+}
+@media (max-width: 414px) {
+  h2 {
+    font-size: 25px;
+  }
+  #Aboutus_wapper_sp {
+    width: 380px;
+    margin: 0 auto;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 11px;
+    line-height: 3;
+    padding-top: 30px;
+  }
+  #Activity_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #Activity_wapper_sp img {
+    display: block;
+    margin: 0 auto;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Staff_wapper_sp {
+    width: 315px;
+    margin: 0 auto;
+  }
+  #Gallery_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+  }
+  #Gallery_wapper_sp {
+    width: 400px;
+    margin: 0 auto;
+  }
+  .delayLoad {
+    margin: 0 auto;
+    width: 335px;
+    text-align: center;
+  }
+  .de {
+    display: none;
+  }
+  #Record_wapper_sp {
+    width: 330px;
+    margin: 0 auto;
+  }
+  #Contact_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  table {
+    width: 400px;
+  }
+  .form_sp .input {
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .form_sp textarea {
+    width: 300px;
+    height: 120px;
+    font-size: 16px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  #submit_sp {
+    background-color: aqua;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    position: relative;
+  }
+  .nm {
+    text-align: right;
+    position: fixed;
+    left: 95%;
+    bottom: 70px;
+    z-index: 1000;
+    background-color: #e27819;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s linear, opacity 0.3s linear;
+    -webkit-transition: background-color 0.3s linear, opacity 0.3s linear;
+  }
+  .nm a {
+    width: 30px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    transition: color 0.3s linear, opacity 0.3s linear;
+    -webkit-transition: color 0.3s linear, opacity 0.3s linear;
+  }
+  .new {
+    display: none;
+  }
+  .nm a p {
+    width: 30px;
+    margin-left: 13px;
+    padding-right: 3px;
+    font-size: 10px;
+    line-height: 3;
+  }
+  .nm:hover {
+    background-color: #fff;
+    opacity: 0.5;
+  }
+  .nm a:hover {
+    color: #e27819;
+    opacity: 0.5;
+  }
+  .nm {
+    position: fixed;
+    left: 70%;
+  }
+  .gototop {
+    position: fixed;
+    left: 85%;
+  }
+}
+@media (max-width: 380px) {
+  h2 {
+    font-size: 25px;
+  }
+  #Aboutus_wapper_sp {
+    width: 375px;
+    margin: 0 auto;
+  }
+  #Activity_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 700px;
+  }
+  #Activity_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #Activity_wapper_sp img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+  }
+  #Gallery_wapper_sp {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .delayLoad {
+    margin: 0 auto;
+    width: 335px;
+    position: relative;
+    right: 15px;
+    text-align: center;
+  }
+  #Record_wapper_sp {
+    width: 270px;
+    margin: 0 auto;
+  }
+  .slider h3 {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  .slider p {
+    font-size: 11px;
+    line-height: 1.8;
+  }
+  .slider {
+    position: relative;
+    left: 0px;
+  }
+  #Contact_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  table {
+    width: 300px;
+  }
+  th {
+    width: 300px;
+    font-size: 12px;
+  }
+  .form_sp .input {
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .form_sp textarea {
+    width: 180px;
+    height: 100px;
+    font-size: 12px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  span {
+    color: red;
+    font-size: 12px;
+  }
+  #submit_sp {
+    background-color: aqua;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    position: relative;
+  }
+}
+@media (max-width: 360px) {
+  h2 {
+    font-size: 25px;
+  }
+  #Aboutus_wapper_sp {
+    width: 340px;
+    margin: 0 auto;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 10px;
+    line-height: 3.3;
+    padding-top: 30px;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6300px;
+    line-height: 1.8;
+  }
+}
+@media (max-width: 340px) {
+  h2 {
+    font-size: 25px;
+  }
+  #Aboutus_wapper_sp {
+    width: 210px;
+    margin: 0 auto;
+  }
+  .Aboutus_content p {
+    text-align: center;
+    font-size: 10px;
+    padding-top: 30px;
+  }
+  #Activity_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Activity_content1 {
+    float: left;
+    width: 140px;
+    display: block;
+    position: relative;
+    left: -70px;
+    top: 20px;
+    text-align: left;
+  }
+  .Activity_content2 {
+    position: relative;
+    right: 130px;
+    top: 40px;
+    float: right;
+    width: 140px;
+    display: block;
+    text-align: left;
+  }
+  .Activity_content3 {
+    float: left;
+    width: 140px;
+    display: block;
+    position: relative;
+    left: -70px;
+    top: 60px;
+    text-align: left;
+  }
+  .Activity_content4 {
+    position: relative;
+    right: 130px;
+    top: 80px;
+    float: right;
+    width: 140px;
+    display: block;
+    text-align: left;
+  }
+  .Activity_content2 .fa-comments {
+    float: left;
+    width: 40px;
+    font-size: 40px;
+    color: #e27819;
+    opacity: 0.8;
+    position: relative;
+    left: 28px;
+    top: 0px;
+  }
+  .Activity_content_sentence1 {
+    width: 280px;
+    position: relative;
+    right: 30px;
+  }
+  .Activity_content_sentence2 {
+    width: 280px;
+  }
+  .Activity_content_sentence3 {
+    width: 280px;
+    position: relative;
+    right: 30px;
+  }
+  .Activity_content_sentence4 {
+    width: 280px;
+  }
+  .Activity_content_icon1 h3 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    height: 25px;
+  }
+  .Activity_content_sentence1 h3 {
+    margin-left: 85px;
+    font-size: 10px;
+  }
+  .Activity_content_sentence1 p {
+    width: 210px;
+    font-size: 10px;
+    line-height: 1.7;
+    margin-left: 90px;
+    text-align: left;
+  }
+  .Activity_content_icon2 h3 {
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    height: 25px;
+  }
+  .Activity_content_sentence2 h3 {
+    margin-left: 85px;
+    font-size: 10px;
+  }
+  .Activity_content_sentence2 p {
+    width: 210px;
+    font-size: 10px;
+    line-height: 1.7;
+    margin-left: 90px;
+    text-align: left;
+  }
+  .Activity_content_icon3 h3 {
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    height: 25px;
+  }
+  .Activity_content_sentence3 h3 {
+    margin-left: 85px;
+    font-size: 10px;
+  }
+  .Activity_content_sentence3 p {
+    width: 210px;
+    font-size: 10px;
+    line-height: 1.7;
+    margin-left: 90px;
+    text-align: left;
+  }
+  .Activity_content_icon4 h3 {
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+    height: 25px;
+  }
+  .Activity_content_sentence4 h3 {
+    margin-left: 80px;
+    font-size: 10px;
+  }
+  .Activity_content_sentence4 p {
+    width: 210px;
+    font-size: 10px;
+    line-height: 1.7;
+    margin-left: 90px;
+    text-align: left;
+  }
+  #Staff_sp {
+    background-color: #fff;
+    width: 100%;
+    height: 6000px;
+    line-height: 1.5;
+  }
+  #Staff_wapper_sp {
+    width: 286px;
+    margin: 0 auto;
+  }
+  #Gallery_wapper_sp {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .delayLoad {
+    margin: 0 auto;
+    width: 320px;
+    position: relative;
+    right: 15px;
+    text-align: center;
+  }
+  #Record_wapper_sp {
+    width: 270px;
+    margin: 0 auto;
+  }
+  .slidePanel ul li {
+    padding: 0 10px;
+    width: 300px;
+    height: 178px;
+    text-align: center;
+    float: left;
+    display: inline;
+    box-sizing: border-box;
+  }
+  .slidePanel ul li img {
+    width: 280px;
+    height: 168px;
+  }
+  #Contact_wapper_sp {
+    width: 100%;
+    margin: 0 auto;
+  }
+  span {
+    color: red;
+    font-size: 10px;
+  }
+  table {
+    width: 300px;
+  }
+  th {
+    width: 220px;
+    font-size: 12px;
+  }
+  .form_sp .input {
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: relative;
+  }
+  .form_sp textarea {
+    width: 180px;
+    height: 100px;
+    font-size: 12px;
+    border-color: gray;
+    border-radius: 5px;
+  }
+  #submit_sp {
+    background-color: aqua;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    position: relative;
+  }
+  .nm {
+    position: fixed;
+    left: 75%;
+    bottom: 30%;
+  }
+  .gototop {
+    position: fixed;
+    left: 75%;
+  }
+}
